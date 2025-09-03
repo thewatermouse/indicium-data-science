@@ -1,61 +1,51 @@
-# indicium-data-science
-Indicium Data Science Challenge
 
-Análise Preditiva de Notas do IMDB
+Análise Preditiva de Notas do IMDB 🎬
+Este repositório contém um projeto de machine learning focado em prever a nota de filmes no IMDB. Utilizando uma base de dados de filmes aclamados, a análise explora as relações entre fatores como faturamento, votos, diretores e gêneros para construir um modelo preditivo robusto.
 
-Este repositório contém o projeto de machine learning desenvolvido para prever a nota de filmes no IMDB com base em diversas características, como faturamento, número de votos, diretores e gêneros. O projeto foi estruturado em três etapas principais: Análise Exploratória de Dados (EDA), Análise Preditiva com Regressão e um modelo de previsão final.
+Estrutura do Projeto
+O repositório está organizado de forma intuitiva para facilitar a navegação e o entendimento.
 
-Estrutura do Repositório
-LH_CD_RODRIGOKATO.ipynb: Contém todos os códigos de análise e modelagem, incluindo EDA e a implementação dos modelos de Regressão Linear e Random Forest.
+📁 LH_CD_RODRIGOKATO.ipynb: O coração do projeto. Contém toda a análise exploratória (EDA) e o desenvolvimento dos modelos de Regressão Linear e Random Forest.
 
-Análise Exploratória dos Dados.pdf: O relatório em PDF com as análises estatísticas e exploratórias, além das perguntas subsequentes
+📄 Análise Exploratória dos Dados.pdf: Um resumo detalhado das análises estatísticas e dos principais insights descobertos.
 
-requirements.txt: Arquivo com a lista de dependências e suas versões.
+📦 requirements.txt: A lista de dependências. Essencial para replicar o ambiente do projeto sem erros.
 
-modelo_previsao_imdb.pkl: O modelo final de Random Forest serializado, pronto para ser utilizado em previsões.
+💾 modelo_previsao_imdb.pkl: O modelo final de Random Forest Regressor, serializado e pronto para fazer previsões em novos filmes.
 
-Como Instalar e Executar o Projeto
-Para rodar este projeto em seu ambiente local, siga os passos abaixo:
+Como Instalar e Executar
+Siga estes passos simples para rodar o projeto em sua máquina.
 
-Passo 1: Clone o Repositório
-Abra o terminal e use o comando git para clonar o repositório para a sua máquina:
+Clone o Repositório 👩‍💻
 
 Bash
 
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
-Passo 2: Crie e Ative o Ambiente Virtual
-É uma boa prática criar um ambiente virtual para isolar as dependências do projeto.
+Crie e Ative o Ambiente Virtual 🐍
 
 Bash
 
 python -m venv venv
-# No Windows
+# Windows
 ./venv/Scripts/activate
-# No macOS e Linux
+# macOS/Linux
 source venv/bin/activate
-Passo 3: Instale as Dependências
-Com o ambiente virtual ativado, instale todas as bibliotecas necessárias a partir do arquivo requirements.txt:
+Instale as Dependências ✨
 
 Bash
 
 pip install -r requirements.txt
-Passo 4: Execute o Jupyter Notebook
-Inicie o Jupyter Notebook para visualizar e executar a análise completa:
+Inicie o Jupyter Notebook 🚀
 
 Bash
 
 jupyter notebook nome_do_seu_notebook.ipynb
-Passo 5: Faça Previsões
-O modelo treinado está salvo no arquivo modelo_previsao_imdb.pkl. Você pode usá-lo para fazer previsões em novos dados, conforme o código do projeto.
+Resultados Chave
+O projeto validou várias hipóteses importantes e gerou insights valiosos:
 
-Análises e Resultados
-O projeto explora a relação entre as características do filme e sua nota no IMDB. Os principais resultados incluem:
+Melhor Desempenho: O modelo Random Forest Regressor superou a Regressão Linear, alcançando um R-quadrado (R²) de 0.60. Isso significa que ele explica 60% da variação nas notas dos filmes, um avanço significativo.
 
-Relação entre Faturamento e Nota: Análises de correlação e gráficos de dispersão mostraram uma relação positiva entre o número de votos e o faturamento do filme.
+Fatores Mais Importantes: A análise de importância das variáveis revelou que o número de votos é o fator mais relevante para prever a nota de um filme. Gênero e Diretor também se mostraram cruciais.
 
-Melhor Modelo: O Random Forest Regressor foi o modelo com melhor desempenho, alcançando um R-quadrado (R²) de 0.60, superando o modelo de Regressão Linear Múltipla.
-
-Importância das Variáveis: A análise de importância das variáveis no modelo RFR revelou que o número de votos é o fator mais relevante para prever o faturamento, seguido pelo gênero e pelo diretor.
-
-Para mais detalhes sobre as análises e resultados, consulte o notebook do projeto e o relatório em PDF.
+Para uma exploração aprofundada dos resultados, confira o notebook e o relatório em PDF.
