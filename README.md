@@ -13,35 +13,34 @@ O repositório está organizado de forma intuitiva para facilitar a navegação 
 
 💾 modelo_previsao_imdb.pkl: O modelo final de Random Forest Regressor, serializado e pronto para fazer previsões em novos filmes.
 
-Como Instalar e Executar
+## Como Instalar e Executar
 Siga estes passos simples para rodar o projeto em sua máquina.
 
-Clone o Repositório 👩‍💻
-
-Bash
+#Clone o Repositório 👩‍💻
 
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
-Crie e Ative o Ambiente Virtual 🐍
 
-Bash
+#Crie e Ative o Ambiente Virtual 🐍
 
 python -m venv venv
-# Windows
-./venv/Scripts/activate
-# macOS/Linux
-source venv/bin/activate
-Instale as Dependências ✨
 
-Bash
+## Windows
+./venv/Scripts/activate
+## macOS/Linux
+source venv/bin/activate
+
+##Instale as Dependências ✨
+
 
 pip install -r requirements.txt
-Inicie o Jupyter Notebook 🚀
 
-Bash
+##Inicie o Jupyter Notebook 🚀
 
 jupyter notebook nome_do_seu_notebook.ipynb
-Resultados Chave
+
+#Resultados Chave
+
 O projeto validou várias hipóteses importantes e gerou insights valiosos:
 
 Melhor Desempenho: O modelo Random Forest Regressor superou a Regressão Linear, alcançando um R-quadrado (R²) de 0.60. Isso significa que ele explica 60% da variação nas notas dos filmes, um avanço significativo.
