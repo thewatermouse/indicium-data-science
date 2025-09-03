@@ -1,11 +1,8 @@
 # indicium-data-science
 Indicium Data Science Challenge
 
-Com certeza! O README é a porta de entrada do seu projeto e deve ser claro e profissional. Ele precisa guiar qualquer pessoa sobre como usar e entender o seu trabalho.
-
-Aqui está uma sugestão de README completa e bem estruturada, baseada em tudo o que fizemos juntos. Basta você copiar, colar e ajustar os links e nomes.
-
 Análise Preditiva de Notas do IMDB
+
 Este repositório contém o projeto de machine learning desenvolvido para prever a nota de filmes no IMDB com base em diversas características, como faturamento, número de votos, diretores e gêneros. O projeto foi estruturado em três etapas principais: Análise Exploratória de Dados (EDA), Análise Preditiva com Regressão e um modelo de previsão final.
 
 Estrutura do Repositório
